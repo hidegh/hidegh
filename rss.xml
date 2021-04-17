@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Balazs&#39;s BLOG</title><subtitle>Helping agencies &amp; SMEs to land easy to maintain projects and (remote) teams</subtitle>
+  <link href="/abc/rss.xml/" rel="self"/>
+  <link href="/abc/"/>
+  <updated>2021-01-14T00:00:00Z</updated>
+  <id>/abc/</id>
+  <author>
+    <name>Balázs HIDEGHÉTY</name>
+  </author>
+  <entry>
+    <title>Text and Typography</title>
+    <link href="/abc/post/text-and-typography/"/>
+    <updated>2019-08-08T03:33:00Z</updated>
+    <id>/abc/post/text-and-typography/</id> 
+    <summary>This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let&#39;s start looking at text and typography.</summary>
+  </entry>
+  <entry>
+    <title>Writing a New Post</title>
+    <link href="/abc/post/writing-a-new-post/"/>
+    <updated>2019-08-08T06:10:00Z</updated>
+    <id>/abc/post/writing-a-new-post/</id> 
+    <summary>This is a summary on how to write new posts!</summary>
+  </entry>
+  <entry>
+    <title>Getting Started</title>
+    <link href="/abc/post/getting-started/"/>
+    <updated>2019-08-09T12:55:00Z</updated>
+    <id>/abc/post/getting-started/</id>    
+    <summary>Prerequisites
+Follow the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll and Bundler.
+Installation
+There are two ways to get the theme:
+
+Install from RubyGems - Easy to update,...</summary>
+  </entry>
+  <entry>
+    <title>Customize the Favicon</title>
+    <link href="/abc/post/customize-the-favicon/"/>
+    <updated>2019-08-10T16:34:00Z</updated>
+    <id>/abc/post/customize-the-favicon/</id> 
+    <summary>In [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/), the image files of [Favicons](https://www.favicon-generator.org/about/) are placed in `assets/img/favicons/`. You may need to replace them with your own. So let&#39;s see how to customize these Favicons.
+
+With a square image (PNG, JPG or GIF) in hand, open the site [*Favicon &amp; App Icon Generator*](https://www.favicon-generator.org/) and upload your original image.
+
+![upload-image](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190811/upload-image.png)
+
+Click button Create Favicon and wait a moment for the website to generate the icons of various sizes automatically.
+
+![download-icons](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190811/download-icons.png){: width=&quot;600&quot;}
+
+Download the generated package, unzip and delete the following two from the extracted files:
+
+- browserconfig.xml
+- manifest.json
+
+Now, copy the remaining image files (`.PNG` and `.ICO`) from the extracted `.zip` file to cover the original files in the folder `assets/img/favicons/`.
+
+The following table helps you understand the changes to the icon file:
+
+&gt; ✓ means keep, ✗ means delete.
+
+| File(s) | From Favicon &amp; App Icon Generator | From Chirpy |
+|</summary>
+  </entry>
+  <entry>
+    <title>Estimation - Quick recap</title>
+    <link href="/abc/post/estimation-quick-recap/"/>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <id>/abc/post/estimation-quick-recap/</id> 
+    <summary>Estimation exceprt with some HTML stuff</summary>
+  </entry>
+  <entry>
+    <title>Fix-employee-retention</title>
+    <link href="/abc/post/fix-employee-retention/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>/abc/post/fix-employee-retention/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>Hire-talents-easily</title>
+    <link href="/abc/post/hire-talents-easily/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>/abc/post/hire-talents-easily/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>How-to-get-better-at-anything - pt2</title>
+    <link href="/abc/post/how-to-get-better-at-anything-pt2/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>/abc/post/how-to-get-better-at-anything-pt2/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>How-to-get-better-at-anything - pt3</title>
+    <link href="/abc/post/how-to-get-better-at-anything-pt3/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>/abc/post/how-to-get-better-at-anything-pt3/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>How-to-get-better-at-anything</title>
+    <link href="/abc/post/how-to-get-better-at-anything/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>/abc/post/how-to-get-better-at-anything/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>Clean code - Quick recap</title>
+    <link href="/abc/post/clean-code-quick-recap/"/>
+    <updated>2020-10-01T00:00:00Z</updated>
+    <id>/abc/post/clean-code-quick-recap/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>Enable Google Page Views</title>
+    <link href="/abc/post/enable-google-page-views/"/>
+    <updated>2021-01-03T23:32:00Z</updated>
+    <id>/abc/post/enable-google-page-views/</id>    
+    <summary>This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv disabled unless you have a...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 1 - Intro</title>
+    <link href="/abc/post/ddd-series-1-intro/"/>
+    <updated>2021-01-05T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-1-intro/</id>    
+    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor metus non nunc varius, nec fermentum magna sagittis. Ut libero mi, blandit at molestie at, sollicitudin quis magna. Integer...</summary>
+  </entry>
+  <entry>
+    <title>_index</title>
+    <link href="/abc/post/_index/"/>
+    <updated>2021-01-05T00:00:00Z</updated>
+    <id>/abc/post/_index/</id>    
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 2 - The history of DDD</title>
+    <link href="/abc/post/ddd-series-2-the-history-of-ddd/"/>
+    <updated>2021-01-06T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-2-the-history-of-ddd/</id>    
+    <summary>Quisque dui ipsum, facilisis vulputate lorem sed, bibendum placerat velit. Quisque massa arcu, faucibus quis massa iaculis, fermentum commodo risus. Mauris vel mi ac risus dignissim eleifend. Etiam...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 3 - DDD building blocks</title>
+    <link href="/abc/post/ddd-series-3-ddd-building-blocks/"/>
+    <updated>2021-01-07T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-3-ddd-building-blocks/</id>    
+    <summary>Going above the article’s path when searching for assets will work only, if the targetted path contains no article - or if there’s no perma-link used!
+The experience might differ depending on whether...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 4 - How ORM changed the way we do DDD</title>
+    <link href="/abc/post/ddd-series-4-how-orm-changed-the-way-we-do-ddd/"/>
+    <updated>2021-01-08T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-4-how-orm-changed-the-way-we-do-ddd/</id>    
+    <summary>OUT AND IN works just when no permalinks are set!
+
+Aliquam efficitur in tortor eu eleifend. Proin eu tincidunt ipsum. Donec malesuada posuere ex, ac volutpat mi tristique laoreet. Morbi malesuada...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 5 - The hardcore way to DDD</title>
+    <link href="/abc/post/ddd-series-5-the-hardcore-way-to-ddd/"/>
+    <updated>2021-01-09T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-5-the-hardcore-way-to-ddd/</id>    
+    <summary>Integer accumsan feugiat tellus aliquam mattis. Sed mattis tortor ornare augue fermentum porta. Curabitur ac finibus lacus. Praesent ut felis sapien. Nunc in sodales neque. Etiam cursus sit amet velit...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 6 - The lazy way towards DDD (using ORM)</title>
+    <link href="/abc/post/ddd-series-6-the-lazy-way-towards-ddd-(using-orm)/"/>
+    <updated>2021-01-10T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-6-the-lazy-way-towards-ddd-(using-orm)/</id>    
+    <summary>“Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit…”
+“There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 7 - Testing is easy with DDD</title>
+    <link href="/abc/post/ddd-series-7-testing-is-easy-with-ddd/"/>
+    <updated>2021-01-11T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-7-testing-is-easy-with-ddd/</id>    
+    <summary>Pellentesque nec purus orci. Maecenas turpis diam, lacinia vitae justo nec, sollicitudin gravida augue. Aenean sed mi eu quam fermentum iaculis et aliquet ex. Etiam mattis arcu enim, quis ultricies...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 8 - Bounded context at help to tackle complexity</title>
+    <link href="/abc/post/ddd-series-8-bounded-context-at-help-to-tackle-complexity/"/>
+    <updated>2021-01-12T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-8-bounded-context-at-help-to-tackle-complexity/</id>    
+    <summary>Ut non tortor vitae nisi luctus hendrerit quis sagittis ligula. Suspendisse eu risus mollis, ullamcorper ante in, venenatis lorem. Nunc quis eros porta nisi lacinia consectetur nec sed quam. Nulla ut...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 9 - Summary</title>
+    <link href="/abc/post/ddd-series-9-summary/"/>
+    <updated>2021-01-13T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-9-summary/</id>    
+    <summary>In lacus felis, sodales at mattis ac, gravida quis eros. Curabitur pharetra a arcu nec blandit. Aenean pellentesque mi ac mattis ultricies. Pellentesque id eleifend diam. Donec nec leo at dui finibus...</summary>
+  </entry>
+  <entry>
+    <title>DDD Series - 10 - Forbidden location</title>
+    <link href="/abc/post/ddd-series-10-forbidden-location/"/>
+    <updated>2021-01-14T00:00:00Z</updated>
+    <id>/abc/post/ddd-series-10-forbidden-location/</id>    
+    <summary>Oops!
+
+To use absolute images in an article, the article must have it’s own folder, use index.md as name.
+Because how HUGO generates the output, this simply can’t work.
+
+Use always an article-folder...</summary>
+  </entry>
+</feed>
