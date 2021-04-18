@@ -68,21 +68,23 @@
     <body>
 
         <header class="sticky-top">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg">
 
     <div class="container">
 
-        <a class="navbar-brand align-middle" href="#">Reflection</a>
+        <a class="navbar-brand align-middle" href="#">
+            <img src="/assets/img/reflection.png" />
+        </a>
 
         <div class="ms-auto mx-2"></div>
 
-        <a type="button" role="button" class="btn btn-outline-light border-0 me-2 d-sm-none"
+        <a type="button" role="button" class="btn border-0 me-2 d-lg-none"
             data-bs-toggle="collapse" data-bs-target="#blog-search-bar">
             <!-- d-sm-none = hide if above sm -->
             <i class="fas fa-search"></i>
         </a>
 
-        <button type="button" class="btn btn-outline-light navbar-toggler"
+        <button type="button" class="btn navbar-toggler"
             data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <!-- Using navbar-toggler fix in main.scss and FA icons instead of: <span class="navbar-toggler-icon"></span> -->
@@ -93,19 +95,19 @@
 
             <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-sm-0">
 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="/">Home</a>
                 </li>
 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="/projects">Projects</a>
                 </li>
 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="/clients">Clients</a>
                 </li>
 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <!-- NOTE: d-table on the group and nav-link d-inline for the inner <a> tags is a must for split button to work properly when collapsed/expanded -->
                     <div class="btn-group d-table nav-link p-2">
                         <a class="nav-link d-inline" href="/posts/1/">Blog posts</a>
@@ -123,31 +125,31 @@
 
             </ul>
 
-            <hr class="d-sm-none text-light">
+            <hr class="d-lg-none text-light">
 
-            <ul class="navbar-nav flex-row flex-wrap ms-sm-auto">
+            <ul class="navbar-nav flex-row flex-wrap ms-lg-auto">
                 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="https://www.linkedin.com/in/hideghety" target="_blank"
                         rel="noopener">
                         <i class="fab fa-fw fa-linkedin"></i>
-                        <small class="d-sm-none ms-2">LinkedIn</small>
+                        <small class="d-lg-none ms-2">LinkedIn</small>
                     </a>
                 </li>
                 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="https://github.com/hidegh" target="_blank"
                         rel="noopener">
                         <i class="fab fa-fw fa-github"></i>
-                        <small class="d-sm-none ms-2">GitHub</small>
+                        <small class="d-lg-none ms-2">GitHub</small>
                     </a>
                 </li>
                 
-                <li class="nav-item col-6 col-sm-auto">
+                <li class="nav-item col-6 col-lg-auto">
                     <a class="nav-link p-2" href="https://twitter.com/balazsHIDEGHETY" target="_blank"
                         rel="noopener">
                         <i class="fab fa-fw fa-twitter"></i>
-                        <small class="d-sm-none ms-2">Twitter</small>
+                        <small class="d-lg-none ms-2">Twitter</small>
                     </a>
                 </li>
                 
@@ -156,21 +158,20 @@
         </div>
 
         <!-- inline search-bar with same expand breakpoint as navigation -->
-        <button type="button" class="btn btn-dark d-none d-sm-inline">
+        <nav class="nav-search d-none d-lg-inline">
             <!-- hidden by def., visible (block) aft. size SM -->
             <div class="inline-input-group inline-text-right">
-                <span class="inline-text"><i class="fas fa-search bg-dark text-light"></i></span>
-                <input type="text" class="blog-search-input form-control py-0 bg-dark text-light"
-                    placeholder="Search...">
+                <span class="inline-text"><i class="fas fa-search"></i></span>
+                <input type="text" class="blog-search-input form-control py-0" placeholder="Search...">
             </div>
-        </button>
+        </nav>
 
     </div>
 
 </nav>
 
 <!-- standalone search bar (below navigation) with same breakpoint as navigation (shown on collapse) -->
-<nav class="d-sm-none collapse bg-light text-dark p-3" id="blog-search-bar">
+<nav class="nav-search-below d-lg-none collapse p-3" id="blog-search-bar">
 
     <div class="container">
 
@@ -205,7 +206,30 @@
 <p>Unlike others<br>
 …I focus on simple, understandable <strong>changes</strong> and a <strong>long term goals</strong><br>
 …I use <strong>proven techniques</strong> from my years of <strong>coding experience</strong></p>
-
+<div class="alert alert-primary" role="alert">
+  A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
     </section>
     
 

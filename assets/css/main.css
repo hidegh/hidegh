@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*! Themestr.app `Tequila` Bootstrap 4.3.1 theme */
 @import url(https://fonts.googleapis.com/css?family=Voltaire:200,300,400,700);
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
@@ -2454,7 +2455,7 @@ textarea.form-control-lg {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 }
-.btn-check[disabled] + .btn, .btn-check[disabled] + .post-navigation-button, .navbar-light .btn-check[disabled] + .navbar-toggler, .navbar-dark .btn-check[disabled] + .navbar-toggler, .btn-check:disabled + .btn, .btn-check:disabled + .post-navigation-button, .navbar-light .btn-check:disabled + .navbar-toggler, .navbar-dark .btn-check:disabled + .navbar-toggler {
+.btn-check[disabled] + .btn, .btn-check[disabled] + .post-navigation-button, .navbar-light .btn-check[disabled] + .navbar-toggler, .navbar-dark .btn-check[disabled] + .navbar-toggler, .navbar .btn-check[disabled] + .navbar-toggler, .btn-check:disabled + .btn, .btn-check:disabled + .post-navigation-button, .navbar-light .btn-check:disabled + .navbar-toggler, .navbar-dark .btn-check:disabled + .navbar-toggler, .navbar .btn-check:disabled + .navbar-toggler {
   pointer-events: none;
   filter: none;
   opacity: 0.65;
@@ -2610,11 +2611,11 @@ textarea.form-control-lg {
 .input-group > .form-select:focus {
   z-index: 3;
 }
-.input-group .btn, .input-group .post-navigation-button, .input-group .navbar-light .navbar-toggler, .navbar-light .input-group .navbar-toggler, .input-group .navbar-dark .navbar-toggler, .navbar-dark .input-group .navbar-toggler {
+.input-group .btn, .input-group .post-navigation-button, .input-group .navbar-light .navbar-toggler, .navbar-light .input-group .navbar-toggler, .input-group .navbar-dark .navbar-toggler, .navbar-dark .input-group .navbar-toggler, .input-group .navbar .navbar-toggler, .navbar .input-group .navbar-toggler {
   position: relative;
   z-index: 2;
 }
-.input-group .btn:focus, .input-group .post-navigation-button:focus, .input-group .navbar-light .navbar-toggler:focus, .navbar-light .input-group .navbar-toggler:focus, .input-group .navbar-dark .navbar-toggler:focus, .navbar-dark .input-group .navbar-toggler:focus {
+.input-group .btn:focus, .input-group .post-navigation-button:focus, .input-group .navbar-light .navbar-toggler:focus, .navbar-light .input-group .navbar-toggler:focus, .input-group .navbar-dark .navbar-toggler:focus, .navbar-dark .input-group .navbar-toggler:focus, .input-group .navbar .navbar-toggler:focus, .navbar .input-group .navbar-toggler:focus {
   z-index: 3;
 }
 
@@ -2639,7 +2640,8 @@ textarea.form-control-lg {
 .input-group-lg > .btn,
 .input-group-lg > .post-navigation-button,
 .navbar-light .input-group-lg > .navbar-toggler,
-.navbar-dark .input-group-lg > .navbar-toggler {
+.navbar-dark .input-group-lg > .navbar-toggler,
+.navbar .input-group-lg > .navbar-toggler {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
@@ -2651,7 +2653,8 @@ textarea.form-control-lg {
 .input-group-sm > .btn,
 .input-group-sm > .post-navigation-button,
 .navbar-light .input-group-sm > .navbar-toggler,
-.navbar-dark .input-group-sm > .navbar-toggler {
+.navbar-dark .input-group-sm > .navbar-toggler,
+.navbar .input-group-sm > .navbar-toggler {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
@@ -2842,7 +2845,7 @@ textarea.form-control-lg {
   z-index: 3;
 }
 
-.btn, .post-navigation-button, .navbar-light .navbar-toggler, .navbar-dark .navbar-toggler {
+.btn, .post-navigation-button, .navbar-light .navbar-toggler, .navbar-dark .navbar-toggler, .navbar .navbar-toggler {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
@@ -2860,18 +2863,18 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .post-navigation-button, .navbar-light .navbar-toggler, .navbar-dark .navbar-toggler {
+  .btn, .post-navigation-button, .navbar-light .navbar-toggler, .navbar-dark .navbar-toggler, .navbar .navbar-toggler {
     transition: none;
   }
 }
-.btn:hover, .post-navigation-button:hover, .navbar-light .navbar-toggler:hover, .navbar-dark .navbar-toggler:hover {
+.btn:hover, .post-navigation-button:hover, .navbar-light .navbar-toggler:hover, .navbar-dark .navbar-toggler:hover, .navbar .navbar-toggler:hover {
   color: #212529;
 }
-.btn-check:focus + .btn, .btn-check:focus + .post-navigation-button, .navbar-light .btn-check:focus + .navbar-toggler, .navbar-dark .btn-check:focus + .navbar-toggler, .btn:focus, .post-navigation-button:focus, .navbar-light .navbar-toggler:focus, .navbar-dark .navbar-toggler:focus {
+.btn-check:focus + .btn, .btn-check:focus + .post-navigation-button, .navbar-light .btn-check:focus + .navbar-toggler, .navbar-dark .btn-check:focus + .navbar-toggler, .navbar .btn-check:focus + .navbar-toggler, .btn:focus, .post-navigation-button:focus, .navbar-light .navbar-toggler:focus, .navbar-dark .navbar-toggler:focus, .navbar .navbar-toggler:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(47, 65, 74, 0.25);
 }
-.btn:disabled, .post-navigation-button:disabled, .navbar-light .navbar-toggler:disabled, .navbar-dark .navbar-toggler:disabled, .btn.disabled, .disabled.post-navigation-button, .navbar-light .disabled.navbar-toggler, .navbar-dark .disabled.navbar-toggler, fieldset:disabled .btn, fieldset:disabled .post-navigation-button, fieldset:disabled .navbar-light .navbar-toggler, .navbar-light fieldset:disabled .navbar-toggler, fieldset:disabled .navbar-dark .navbar-toggler, .navbar-dark fieldset:disabled .navbar-toggler {
+.btn:disabled, .post-navigation-button:disabled, .navbar-light .navbar-toggler:disabled, .navbar-dark .navbar-toggler:disabled, .navbar .navbar-toggler:disabled, .btn.disabled, .disabled.post-navigation-button, .navbar-light .disabled.navbar-toggler, .navbar-dark .disabled.navbar-toggler, .navbar .disabled.navbar-toggler, fieldset:disabled .btn, fieldset:disabled .post-navigation-button, fieldset:disabled .navbar-light .navbar-toggler, .navbar-light fieldset:disabled .navbar-toggler, fieldset:disabled .navbar-dark .navbar-toggler, .navbar-dark fieldset:disabled .navbar-toggler, fieldset:disabled .navbar .navbar-toggler, .navbar fieldset:disabled .navbar-toggler {
   pointer-events: none;
   opacity: 0.65;
 }
@@ -3056,61 +3059,61 @@ textarea.form-control-lg {
   border-color: #f2460d;
 }
 
-.btn-light, #clients .btn, #clients .navbar-dark .navbar-toggler, .navbar-dark #clients .navbar-toggler, #clients .navbar-light .navbar-toggler, .navbar-light #clients .navbar-toggler, #clients .post-navigation-button, .post-navigation-button {
+.btn-light, #clients .btn, #clients .navbar-dark .navbar-toggler, .navbar-dark #clients .navbar-toggler, #clients .navbar .navbar-toggler, .navbar #clients .navbar-toggler, #clients .navbar-light .navbar-toggler, .navbar-light #clients .navbar-toggler, #clients .post-navigation-button, .post-navigation-button {
   color: #000;
   background-color: #eef0f2;
   border-color: #eef0f2;
 }
-.btn-light:hover, #clients .btn:hover, #clients .navbar-dark .navbar-toggler:hover, .navbar-dark #clients .navbar-toggler:hover, #clients .navbar-light .navbar-toggler:hover, .navbar-light #clients .navbar-toggler:hover, #clients .post-navigation-button:hover, .post-navigation-button:hover {
+.btn-light:hover, #clients .btn:hover, #clients .navbar-dark .navbar-toggler:hover, .navbar-dark #clients .navbar-toggler:hover, #clients .navbar .navbar-toggler:hover, .navbar #clients .navbar-toggler:hover, #clients .navbar-light .navbar-toggler:hover, .navbar-light #clients .navbar-toggler:hover, #clients .post-navigation-button:hover, .post-navigation-button:hover {
   color: #000;
   background-color: #f1f2f4;
   border-color: #f0f2f3;
 }
-.btn-check:focus + .btn-light, #clients .btn-check:focus + .btn, #clients .navbar-dark .btn-check:focus + .navbar-toggler, .navbar-dark #clients .btn-check:focus + .navbar-toggler, #clients .navbar-light .btn-check:focus + .navbar-toggler, .navbar-light #clients .btn-check:focus + .navbar-toggler, #clients .btn-check:focus + .post-navigation-button, .btn-check:focus + .post-navigation-button, .btn-light:focus, #clients .btn:focus, #clients .navbar-dark .navbar-toggler:focus, .navbar-dark #clients .navbar-toggler:focus, #clients .navbar-light .navbar-toggler:focus, .navbar-light #clients .navbar-toggler:focus, #clients .post-navigation-button:focus, .post-navigation-button:focus {
+.btn-check:focus + .btn-light, #clients .btn-check:focus + .btn, #clients .navbar-dark .btn-check:focus + .navbar-toggler, .navbar-dark #clients .btn-check:focus + .navbar-toggler, #clients .navbar .btn-check:focus + .navbar-toggler, .navbar #clients .btn-check:focus + .navbar-toggler, #clients .navbar-light .btn-check:focus + .navbar-toggler, .navbar-light #clients .btn-check:focus + .navbar-toggler, #clients .btn-check:focus + .post-navigation-button, .btn-check:focus + .post-navigation-button, .btn-light:focus, #clients .btn:focus, #clients .navbar-dark .navbar-toggler:focus, .navbar-dark #clients .navbar-toggler:focus, #clients .navbar .navbar-toggler:focus, .navbar #clients .navbar-toggler:focus, #clients .navbar-light .navbar-toggler:focus, .navbar-light #clients .navbar-toggler:focus, #clients .post-navigation-button:focus, .post-navigation-button:focus {
   color: #000;
   background-color: #f1f2f4;
   border-color: #f0f2f3;
   box-shadow: 0 0 0 0.25rem rgba(202, 204, 206, 0.5);
 }
-.btn-check:checked + .btn-light, #clients .btn-check:checked + .btn, #clients .navbar-dark .btn-check:checked + .navbar-toggler, .navbar-dark #clients .btn-check:checked + .navbar-toggler, #clients .navbar-light .btn-check:checked + .navbar-toggler, .navbar-light #clients .btn-check:checked + .navbar-toggler, #clients .btn-check:checked + .post-navigation-button, .btn-check:checked + .post-navigation-button, .btn-check:active + .btn-light, #clients .btn-check:active + .btn, #clients .navbar-dark .btn-check:active + .navbar-toggler, .navbar-dark #clients .btn-check:active + .navbar-toggler, #clients .navbar-light .btn-check:active + .navbar-toggler, .navbar-light #clients .btn-check:active + .navbar-toggler, #clients .btn-check:active + .post-navigation-button, .btn-check:active + .post-navigation-button, .btn-light:active, #clients .btn:active, #clients .navbar-dark .navbar-toggler:active, .navbar-dark #clients .navbar-toggler:active, #clients .navbar-light .navbar-toggler:active, .navbar-light #clients .navbar-toggler:active, #clients .post-navigation-button:active, .post-navigation-button:active, .btn-light.active, #clients .active.btn, #clients .navbar-dark .active.navbar-toggler, .navbar-dark #clients .active.navbar-toggler, #clients .navbar-light .active.navbar-toggler, .navbar-light #clients .active.navbar-toggler, #clients .active.post-navigation-button, .active.post-navigation-button, .show > .btn-light.dropdown-toggle, #clients .show > .dropdown-toggle.btn, #clients .navbar-dark .show > .dropdown-toggle.navbar-toggler, .navbar-dark #clients .show > .dropdown-toggle.navbar-toggler, #clients .navbar-light .show > .dropdown-toggle.navbar-toggler, .navbar-light #clients .show > .dropdown-toggle.navbar-toggler, #clients .show > .dropdown-toggle.post-navigation-button, .show > .dropdown-toggle.post-navigation-button {
+.btn-check:checked + .btn-light, #clients .btn-check:checked + .btn, #clients .navbar-dark .btn-check:checked + .navbar-toggler, .navbar-dark #clients .btn-check:checked + .navbar-toggler, #clients .navbar .btn-check:checked + .navbar-toggler, .navbar #clients .btn-check:checked + .navbar-toggler, #clients .navbar-light .btn-check:checked + .navbar-toggler, .navbar-light #clients .btn-check:checked + .navbar-toggler, #clients .btn-check:checked + .post-navigation-button, .btn-check:checked + .post-navigation-button, .btn-check:active + .btn-light, #clients .btn-check:active + .btn, #clients .navbar-dark .btn-check:active + .navbar-toggler, .navbar-dark #clients .btn-check:active + .navbar-toggler, #clients .navbar .btn-check:active + .navbar-toggler, .navbar #clients .btn-check:active + .navbar-toggler, #clients .navbar-light .btn-check:active + .navbar-toggler, .navbar-light #clients .btn-check:active + .navbar-toggler, #clients .btn-check:active + .post-navigation-button, .btn-check:active + .post-navigation-button, .btn-light:active, #clients .btn:active, #clients .navbar-dark .navbar-toggler:active, .navbar-dark #clients .navbar-toggler:active, #clients .navbar .navbar-toggler:active, .navbar #clients .navbar-toggler:active, #clients .navbar-light .navbar-toggler:active, .navbar-light #clients .navbar-toggler:active, #clients .post-navigation-button:active, .post-navigation-button:active, .btn-light.active, #clients .active.btn, #clients .navbar-dark .active.navbar-toggler, .navbar-dark #clients .active.navbar-toggler, #clients .navbar .active.navbar-toggler, .navbar #clients .active.navbar-toggler, #clients .navbar-light .active.navbar-toggler, .navbar-light #clients .active.navbar-toggler, #clients .active.post-navigation-button, .active.post-navigation-button, .show > .btn-light.dropdown-toggle, #clients .show > .dropdown-toggle.btn, #clients .navbar-dark .show > .dropdown-toggle.navbar-toggler, .navbar-dark #clients .show > .dropdown-toggle.navbar-toggler, #clients .navbar .show > .dropdown-toggle.navbar-toggler, .navbar #clients .show > .dropdown-toggle.navbar-toggler, #clients .navbar-light .show > .dropdown-toggle.navbar-toggler, .navbar-light #clients .show > .dropdown-toggle.navbar-toggler, #clients .show > .dropdown-toggle.post-navigation-button, .show > .dropdown-toggle.post-navigation-button {
   color: #000;
   background-color: #f1f3f5;
   border-color: #f0f2f3;
 }
-.btn-check:checked + .btn-light:focus, #clients .btn-check:checked + .btn:focus, #clients .navbar-dark .btn-check:checked + .navbar-toggler:focus, .navbar-dark #clients .btn-check:checked + .navbar-toggler:focus, #clients .navbar-light .btn-check:checked + .navbar-toggler:focus, .navbar-light #clients .btn-check:checked + .navbar-toggler:focus, #clients .btn-check:checked + .post-navigation-button:focus, .btn-check:checked + .post-navigation-button:focus, .btn-check:active + .btn-light:focus, #clients .btn-check:active + .btn:focus, #clients .navbar-dark .btn-check:active + .navbar-toggler:focus, .navbar-dark #clients .btn-check:active + .navbar-toggler:focus, #clients .navbar-light .btn-check:active + .navbar-toggler:focus, .navbar-light #clients .btn-check:active + .navbar-toggler:focus, #clients .btn-check:active + .post-navigation-button:focus, .btn-check:active + .post-navigation-button:focus, .btn-light:active:focus, #clients .btn:active:focus, #clients .navbar-dark .navbar-toggler:active:focus, .navbar-dark #clients .navbar-toggler:active:focus, #clients .navbar-light .navbar-toggler:active:focus, .navbar-light #clients .navbar-toggler:active:focus, #clients .post-navigation-button:active:focus, .post-navigation-button:active:focus, .btn-light.active:focus, #clients .active.btn:focus, #clients .navbar-dark .active.navbar-toggler:focus, .navbar-dark #clients .active.navbar-toggler:focus, #clients .navbar-light .active.navbar-toggler:focus, .navbar-light #clients .active.navbar-toggler:focus, #clients .active.post-navigation-button:focus, .active.post-navigation-button:focus, .show > .btn-light.dropdown-toggle:focus, #clients .show > .dropdown-toggle.btn:focus, #clients .navbar-dark .show > .dropdown-toggle.navbar-toggler:focus, .navbar-dark #clients .show > .dropdown-toggle.navbar-toggler:focus, #clients .navbar-light .show > .dropdown-toggle.navbar-toggler:focus, .navbar-light #clients .show > .dropdown-toggle.navbar-toggler:focus, #clients .show > .dropdown-toggle.post-navigation-button:focus, .show > .dropdown-toggle.post-navigation-button:focus {
+.btn-check:checked + .btn-light:focus, #clients .btn-check:checked + .btn:focus, #clients .navbar-dark .btn-check:checked + .navbar-toggler:focus, .navbar-dark #clients .btn-check:checked + .navbar-toggler:focus, #clients .navbar .btn-check:checked + .navbar-toggler:focus, .navbar #clients .btn-check:checked + .navbar-toggler:focus, #clients .navbar-light .btn-check:checked + .navbar-toggler:focus, .navbar-light #clients .btn-check:checked + .navbar-toggler:focus, #clients .btn-check:checked + .post-navigation-button:focus, .btn-check:checked + .post-navigation-button:focus, .btn-check:active + .btn-light:focus, #clients .btn-check:active + .btn:focus, #clients .navbar-dark .btn-check:active + .navbar-toggler:focus, .navbar-dark #clients .btn-check:active + .navbar-toggler:focus, #clients .navbar .btn-check:active + .navbar-toggler:focus, .navbar #clients .btn-check:active + .navbar-toggler:focus, #clients .navbar-light .btn-check:active + .navbar-toggler:focus, .navbar-light #clients .btn-check:active + .navbar-toggler:focus, #clients .btn-check:active + .post-navigation-button:focus, .btn-check:active + .post-navigation-button:focus, .btn-light:active:focus, #clients .btn:active:focus, #clients .navbar-dark .navbar-toggler:active:focus, .navbar-dark #clients .navbar-toggler:active:focus, #clients .navbar .navbar-toggler:active:focus, .navbar #clients .navbar-toggler:active:focus, #clients .navbar-light .navbar-toggler:active:focus, .navbar-light #clients .navbar-toggler:active:focus, #clients .post-navigation-button:active:focus, .post-navigation-button:active:focus, .btn-light.active:focus, #clients .active.btn:focus, #clients .navbar-dark .active.navbar-toggler:focus, .navbar-dark #clients .active.navbar-toggler:focus, #clients .navbar .active.navbar-toggler:focus, .navbar #clients .active.navbar-toggler:focus, #clients .navbar-light .active.navbar-toggler:focus, .navbar-light #clients .active.navbar-toggler:focus, #clients .active.post-navigation-button:focus, .active.post-navigation-button:focus, .show > .btn-light.dropdown-toggle:focus, #clients .show > .dropdown-toggle.btn:focus, #clients .navbar-dark .show > .dropdown-toggle.navbar-toggler:focus, .navbar-dark #clients .show > .dropdown-toggle.navbar-toggler:focus, #clients .navbar .show > .dropdown-toggle.navbar-toggler:focus, .navbar #clients .show > .dropdown-toggle.navbar-toggler:focus, #clients .navbar-light .show > .dropdown-toggle.navbar-toggler:focus, .navbar-light #clients .show > .dropdown-toggle.navbar-toggler:focus, #clients .show > .dropdown-toggle.post-navigation-button:focus, .show > .dropdown-toggle.post-navigation-button:focus {
   box-shadow: 0 0 0 0.25rem rgba(202, 204, 206, 0.5);
 }
-.btn-light:disabled, #clients .btn:disabled, #clients .navbar-dark .navbar-toggler:disabled, .navbar-dark #clients .navbar-toggler:disabled, #clients .navbar-light .navbar-toggler:disabled, .navbar-light #clients .navbar-toggler:disabled, #clients .post-navigation-button:disabled, .post-navigation-button:disabled, .btn-light.disabled, #clients .disabled.btn, #clients .navbar-dark .disabled.navbar-toggler, .navbar-dark #clients .disabled.navbar-toggler, #clients .navbar-light .disabled.navbar-toggler, .navbar-light #clients .disabled.navbar-toggler, #clients .disabled.post-navigation-button, .disabled.post-navigation-button {
+.btn-light:disabled, #clients .btn:disabled, #clients .navbar-dark .navbar-toggler:disabled, .navbar-dark #clients .navbar-toggler:disabled, #clients .navbar .navbar-toggler:disabled, .navbar #clients .navbar-toggler:disabled, #clients .navbar-light .navbar-toggler:disabled, .navbar-light #clients .navbar-toggler:disabled, #clients .post-navigation-button:disabled, .post-navigation-button:disabled, .btn-light.disabled, #clients .disabled.btn, #clients .navbar-dark .disabled.navbar-toggler, .navbar-dark #clients .disabled.navbar-toggler, #clients .navbar .disabled.navbar-toggler, .navbar #clients .disabled.navbar-toggler, #clients .navbar-light .disabled.navbar-toggler, .navbar-light #clients .disabled.navbar-toggler, #clients .disabled.post-navigation-button, .disabled.post-navigation-button {
   color: #000;
   background-color: #eef0f2;
   border-color: #eef0f2;
 }
 
-.btn-dark, #clients .btn.mixitup-control-active, #clients .navbar-dark .mixitup-control-active.navbar-toggler, .navbar-dark #clients .mixitup-control-active.navbar-toggler, #clients .navbar-light .mixitup-control-active.navbar-toggler, .navbar-light #clients .mixitup-control-active.navbar-toggler, #clients .mixitup-control-active.post-navigation-button {
+.btn-dark, #clients .btn.mixitup-control-active, #clients .navbar-dark .mixitup-control-active.navbar-toggler, .navbar-dark #clients .mixitup-control-active.navbar-toggler, #clients .navbar .mixitup-control-active.navbar-toggler, .navbar #clients .mixitup-control-active.navbar-toggler, #clients .navbar-light .mixitup-control-active.navbar-toggler, .navbar-light #clients .mixitup-control-active.navbar-toggler, #clients .mixitup-control-active.post-navigation-button {
   color: #fff;
   background-color: #000633;
   border-color: #000633;
 }
-.btn-dark:hover, #clients .btn.mixitup-control-active:hover, #clients .navbar-dark .mixitup-control-active.navbar-toggler:hover, .navbar-dark #clients .mixitup-control-active.navbar-toggler:hover, #clients .navbar-light .mixitup-control-active.navbar-toggler:hover, .navbar-light #clients .mixitup-control-active.navbar-toggler:hover, #clients .mixitup-control-active.post-navigation-button:hover {
+.btn-dark:hover, #clients .btn.mixitup-control-active:hover, #clients .navbar-dark .mixitup-control-active.navbar-toggler:hover, .navbar-dark #clients .mixitup-control-active.navbar-toggler:hover, #clients .navbar .mixitup-control-active.navbar-toggler:hover, .navbar #clients .mixitup-control-active.navbar-toggler:hover, #clients .navbar-light .mixitup-control-active.navbar-toggler:hover, .navbar-light #clients .mixitup-control-active.navbar-toggler:hover, #clients .mixitup-control-active.post-navigation-button:hover {
   color: #fff;
   background-color: #00052b;
   border-color: #000529;
 }
-.btn-check:focus + .btn-dark, #clients .btn-check:focus + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:focus + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:focus + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:focus + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:focus + .mixitup-control-active.navbar-toggler, #clients .btn-check:focus + .mixitup-control-active.post-navigation-button, .btn-dark:focus, #clients .btn.mixitup-control-active:focus, #clients .navbar-dark .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .mixitup-control-active.navbar-toggler:focus, #clients .mixitup-control-active.post-navigation-button:focus {
+.btn-check:focus + .btn-dark, #clients .btn-check:focus + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:focus + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:focus + .mixitup-control-active.navbar-toggler, #clients .navbar .btn-check:focus + .mixitup-control-active.navbar-toggler, .navbar #clients .btn-check:focus + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:focus + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:focus + .mixitup-control-active.navbar-toggler, #clients .btn-check:focus + .mixitup-control-active.post-navigation-button, .btn-dark:focus, #clients .btn.mixitup-control-active:focus, #clients .navbar-dark .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .mixitup-control-active.navbar-toggler:focus, #clients .navbar .mixitup-control-active.navbar-toggler:focus, .navbar #clients .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .mixitup-control-active.navbar-toggler:focus, #clients .mixitup-control-active.post-navigation-button:focus {
   color: #fff;
   background-color: #00052b;
   border-color: #000529;
   box-shadow: 0 0 0 0.25rem rgba(38, 43, 82, 0.5);
 }
-.btn-check:checked + .btn-dark, #clients .btn-check:checked + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:checked + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:checked + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:checked + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:checked + .mixitup-control-active.navbar-toggler, #clients .btn-check:checked + .mixitup-control-active.post-navigation-button, .btn-check:active + .btn-dark, #clients .btn-check:active + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:active + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:active + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:active + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:active + .mixitup-control-active.navbar-toggler, #clients .btn-check:active + .mixitup-control-active.post-navigation-button, .btn-dark:active, #clients .btn.mixitup-control-active:active, #clients .navbar-dark .mixitup-control-active.navbar-toggler:active, .navbar-dark #clients .mixitup-control-active.navbar-toggler:active, #clients .navbar-light .mixitup-control-active.navbar-toggler:active, .navbar-light #clients .mixitup-control-active.navbar-toggler:active, #clients .mixitup-control-active.post-navigation-button:active, .btn-dark.active, #clients .active.btn.mixitup-control-active, #clients .navbar-dark .active.mixitup-control-active.navbar-toggler, .navbar-dark #clients .active.mixitup-control-active.navbar-toggler, #clients .navbar-light .active.mixitup-control-active.navbar-toggler, .navbar-light #clients .active.mixitup-control-active.navbar-toggler, #clients .active.mixitup-control-active.post-navigation-button, .show > .btn-dark.dropdown-toggle, #clients .show > .dropdown-toggle.btn.mixitup-control-active, #clients .navbar-dark .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, .navbar-dark #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, #clients .navbar-light .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, .navbar-light #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, #clients .show > .dropdown-toggle.mixitup-control-active.post-navigation-button {
+.btn-check:checked + .btn-dark, #clients .btn-check:checked + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:checked + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:checked + .mixitup-control-active.navbar-toggler, #clients .navbar .btn-check:checked + .mixitup-control-active.navbar-toggler, .navbar #clients .btn-check:checked + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:checked + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:checked + .mixitup-control-active.navbar-toggler, #clients .btn-check:checked + .mixitup-control-active.post-navigation-button, .btn-check:active + .btn-dark, #clients .btn-check:active + .btn.mixitup-control-active, #clients .navbar-dark .btn-check:active + .mixitup-control-active.navbar-toggler, .navbar-dark #clients .btn-check:active + .mixitup-control-active.navbar-toggler, #clients .navbar .btn-check:active + .mixitup-control-active.navbar-toggler, .navbar #clients .btn-check:active + .mixitup-control-active.navbar-toggler, #clients .navbar-light .btn-check:active + .mixitup-control-active.navbar-toggler, .navbar-light #clients .btn-check:active + .mixitup-control-active.navbar-toggler, #clients .btn-check:active + .mixitup-control-active.post-navigation-button, .btn-dark:active, #clients .btn.mixitup-control-active:active, #clients .navbar-dark .mixitup-control-active.navbar-toggler:active, .navbar-dark #clients .mixitup-control-active.navbar-toggler:active, #clients .navbar .mixitup-control-active.navbar-toggler:active, .navbar #clients .mixitup-control-active.navbar-toggler:active, #clients .navbar-light .mixitup-control-active.navbar-toggler:active, .navbar-light #clients .mixitup-control-active.navbar-toggler:active, #clients .mixitup-control-active.post-navigation-button:active, .btn-dark.active, #clients .active.btn.mixitup-control-active, #clients .navbar-dark .active.mixitup-control-active.navbar-toggler, .navbar-dark #clients .active.mixitup-control-active.navbar-toggler, #clients .navbar .active.mixitup-control-active.navbar-toggler, .navbar #clients .active.mixitup-control-active.navbar-toggler, #clients .navbar-light .active.mixitup-control-active.navbar-toggler, .navbar-light #clients .active.mixitup-control-active.navbar-toggler, #clients .active.mixitup-control-active.post-navigation-button, .show > .btn-dark.dropdown-toggle, #clients .show > .dropdown-toggle.btn.mixitup-control-active, #clients .navbar-dark .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, .navbar-dark #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, #clients .navbar .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, .navbar #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, #clients .navbar-light .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, .navbar-light #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler, #clients .show > .dropdown-toggle.mixitup-control-active.post-navigation-button {
   color: #fff;
   background-color: #000529;
   border-color: #000526;
 }
-.btn-check:checked + .btn-dark:focus, #clients .btn-check:checked + .btn.mixitup-control-active:focus, #clients .navbar-dark .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, #clients .btn-check:checked + .mixitup-control-active.post-navigation-button:focus, .btn-check:active + .btn-dark:focus, #clients .btn-check:active + .btn.mixitup-control-active:focus, #clients .navbar-dark .btn-check:active + .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .btn-check:active + .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .btn-check:active + .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .btn-check:active + .mixitup-control-active.navbar-toggler:focus, #clients .btn-check:active + .mixitup-control-active.post-navigation-button:focus, .btn-dark:active:focus, #clients .btn.mixitup-control-active:active:focus, #clients .navbar-dark .mixitup-control-active.navbar-toggler:active:focus, .navbar-dark #clients .mixitup-control-active.navbar-toggler:active:focus, #clients .navbar-light .mixitup-control-active.navbar-toggler:active:focus, .navbar-light #clients .mixitup-control-active.navbar-toggler:active:focus, #clients .mixitup-control-active.post-navigation-button:active:focus, .btn-dark.active:focus, #clients .active.btn.mixitup-control-active:focus, #clients .navbar-dark .active.mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .active.mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .active.mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .active.mixitup-control-active.navbar-toggler:focus, #clients .active.mixitup-control-active.post-navigation-button:focus, .show > .btn-dark.dropdown-toggle:focus, #clients .show > .dropdown-toggle.btn.mixitup-control-active:focus, #clients .navbar-dark .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, #clients .show > .dropdown-toggle.mixitup-control-active.post-navigation-button:focus {
+.btn-check:checked + .btn-dark:focus, #clients .btn-check:checked + .btn.mixitup-control-active:focus, #clients .navbar-dark .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, #clients .navbar .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, .navbar #clients .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .btn-check:checked + .mixitup-control-active.navbar-toggler:focus, #clients .btn-check:checked + .mixitup-control-active.post-navigation-button:focus, .btn-check:active + .btn-dark:focus, #clients .btn-check:active + .btn.mixitup-control-active:focus, #clients .navbar-dark .btn-check:active + .mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .btn-check:active + .mixitup-control-active.navbar-toggler:focus, #clients .navbar .btn-check:active + .mixitup-control-active.navbar-toggler:focus, .navbar #clients .btn-check:active + .mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .btn-check:active + .mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .btn-check:active + .mixitup-control-active.navbar-toggler:focus, #clients .btn-check:active + .mixitup-control-active.post-navigation-button:focus, .btn-dark:active:focus, #clients .btn.mixitup-control-active:active:focus, #clients .navbar-dark .mixitup-control-active.navbar-toggler:active:focus, .navbar-dark #clients .mixitup-control-active.navbar-toggler:active:focus, #clients .navbar .mixitup-control-active.navbar-toggler:active:focus, .navbar #clients .mixitup-control-active.navbar-toggler:active:focus, #clients .navbar-light .mixitup-control-active.navbar-toggler:active:focus, .navbar-light #clients .mixitup-control-active.navbar-toggler:active:focus, #clients .mixitup-control-active.post-navigation-button:active:focus, .btn-dark.active:focus, #clients .active.btn.mixitup-control-active:focus, #clients .navbar-dark .active.mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .active.mixitup-control-active.navbar-toggler:focus, #clients .navbar .active.mixitup-control-active.navbar-toggler:focus, .navbar #clients .active.mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .active.mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .active.mixitup-control-active.navbar-toggler:focus, #clients .active.mixitup-control-active.post-navigation-button:focus, .show > .btn-dark.dropdown-toggle:focus, #clients .show > .dropdown-toggle.btn.mixitup-control-active:focus, #clients .navbar-dark .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, .navbar-dark #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, #clients .navbar .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, .navbar #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, #clients .navbar-light .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, .navbar-light #clients .show > .dropdown-toggle.mixitup-control-active.navbar-toggler:focus, #clients .show > .dropdown-toggle.mixitup-control-active.post-navigation-button:focus {
   box-shadow: 0 0 0 0.25rem rgba(38, 43, 82, 0.5);
 }
-.btn-dark:disabled, #clients .btn.mixitup-control-active:disabled, #clients .navbar-dark .mixitup-control-active.navbar-toggler:disabled, .navbar-dark #clients .mixitup-control-active.navbar-toggler:disabled, #clients .navbar-light .mixitup-control-active.navbar-toggler:disabled, .navbar-light #clients .mixitup-control-active.navbar-toggler:disabled, #clients .mixitup-control-active.post-navigation-button:disabled, .btn-dark.disabled, #clients .disabled.btn.mixitup-control-active, #clients .navbar-dark .disabled.mixitup-control-active.navbar-toggler, .navbar-dark #clients .disabled.mixitup-control-active.navbar-toggler, #clients .navbar-light .disabled.mixitup-control-active.navbar-toggler, .navbar-light #clients .disabled.mixitup-control-active.navbar-toggler, #clients .disabled.mixitup-control-active.post-navigation-button {
+.btn-dark:disabled, #clients .btn.mixitup-control-active:disabled, #clients .navbar-dark .mixitup-control-active.navbar-toggler:disabled, .navbar-dark #clients .mixitup-control-active.navbar-toggler:disabled, #clients .navbar .mixitup-control-active.navbar-toggler:disabled, .navbar #clients .mixitup-control-active.navbar-toggler:disabled, #clients .navbar-light .mixitup-control-active.navbar-toggler:disabled, .navbar-light #clients .mixitup-control-active.navbar-toggler:disabled, #clients .mixitup-control-active.post-navigation-button:disabled, .btn-dark.disabled, #clients .disabled.btn.mixitup-control-active, #clients .navbar-dark .disabled.mixitup-control-active.navbar-toggler, .navbar-dark #clients .disabled.mixitup-control-active.navbar-toggler, #clients .navbar .disabled.mixitup-control-active.navbar-toggler, .navbar #clients .disabled.mixitup-control-active.navbar-toggler, #clients .navbar-light .disabled.mixitup-control-active.navbar-toggler, .navbar-light #clients .disabled.mixitup-control-active.navbar-toggler, #clients .disabled.mixitup-control-active.post-navigation-button {
   color: #fff;
   background-color: #000633;
   border-color: #000633;
@@ -3266,27 +3269,27 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
-.btn-outline-light {
+.btn-outline-light, .navbar .btn, .navbar .post-navigation-button, .navbar .navbar-toggler {
   color: #eef0f2;
   border-color: #eef0f2;
 }
-.btn-outline-light:hover {
+.btn-outline-light:hover, .navbar .btn:hover, .navbar .post-navigation-button:hover, .navbar .navbar-toggler:hover {
   color: #000;
   background-color: #eef0f2;
   border-color: #eef0f2;
 }
-.btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
+.btn-check:focus + .btn-outline-light, .navbar .btn-check:focus + .btn, .navbar .btn-check:focus + .post-navigation-button, .navbar .navbar-light .btn-check:focus + .navbar-toggler, .navbar .navbar-dark .btn-check:focus + .navbar-toggler, .navbar .btn-check:focus + .navbar-toggler, .btn-outline-light:focus, .navbar .btn:focus, .navbar .post-navigation-button:focus, .navbar .navbar-toggler:focus {
   box-shadow: 0 0 0 0.25rem rgba(238, 240, 242, 0.5);
 }
-.btn-check:checked + .btn-outline-light, .btn-check:active + .btn-outline-light, .btn-outline-light:active, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show {
+.btn-check:checked + .btn-outline-light, .navbar .btn-check:checked + .btn, .navbar .btn-check:checked + .post-navigation-button, .navbar .navbar-light .btn-check:checked + .navbar-toggler, .navbar .navbar-dark .btn-check:checked + .navbar-toggler, .navbar .btn-check:checked + .navbar-toggler, .btn-check:active + .btn-outline-light, .navbar .btn-check:active + .btn, .navbar .btn-check:active + .post-navigation-button, .navbar .navbar-light .btn-check:active + .navbar-toggler, .navbar .navbar-dark .btn-check:active + .navbar-toggler, .navbar .btn-check:active + .navbar-toggler, .btn-outline-light:active, .navbar .btn:active, .navbar .post-navigation-button:active, .navbar .navbar-toggler:active, .btn-outline-light.active, .navbar .active.btn, .navbar .active.post-navigation-button, .navbar .active.navbar-toggler, .btn-outline-light.dropdown-toggle.show, .navbar .dropdown-toggle.show.btn, .navbar .dropdown-toggle.show.post-navigation-button, .navbar .dropdown-toggle.show.navbar-toggler {
   color: #000;
   background-color: #eef0f2;
   border-color: #eef0f2;
 }
-.btn-check:checked + .btn-outline-light:focus, .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
+.btn-check:checked + .btn-outline-light:focus, .navbar .btn-check:checked + .btn:focus, .navbar .btn-check:checked + .post-navigation-button:focus, .navbar .navbar-light .btn-check:checked + .navbar-toggler:focus, .navbar .navbar-dark .btn-check:checked + .navbar-toggler:focus, .navbar .btn-check:checked + .navbar-toggler:focus, .btn-check:active + .btn-outline-light:focus, .navbar .btn-check:active + .btn:focus, .navbar .btn-check:active + .post-navigation-button:focus, .navbar .navbar-light .btn-check:active + .navbar-toggler:focus, .navbar .navbar-dark .btn-check:active + .navbar-toggler:focus, .navbar .btn-check:active + .navbar-toggler:focus, .btn-outline-light:active:focus, .navbar .btn:active:focus, .navbar .post-navigation-button:active:focus, .navbar .navbar-toggler:active:focus, .btn-outline-light.active:focus, .navbar .active.btn:focus, .navbar .active.post-navigation-button:focus, .navbar .active.navbar-toggler:focus, .btn-outline-light.dropdown-toggle.show:focus, .navbar .dropdown-toggle.show.btn:focus, .navbar .dropdown-toggle.show.post-navigation-button:focus, .navbar .dropdown-toggle.show.navbar-toggler:focus {
   box-shadow: 0 0 0 0.25rem rgba(238, 240, 242, 0.5);
 }
-.btn-outline-light:disabled, .btn-outline-light.disabled {
+.btn-outline-light:disabled, .navbar .btn:disabled, .navbar .post-navigation-button:disabled, .navbar .navbar-toggler:disabled, .btn-outline-light.disabled, .navbar .disabled.btn, .navbar .disabled.post-navigation-button, .navbar .disabled.navbar-toggler {
   color: #eef0f2;
   background-color: transparent;
 }
@@ -3328,13 +3331,13 @@ textarea.form-control-lg {
   color: #6c757d;
 }
 
-.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .post-navigation-button, .navbar-light .btn-group-lg > .navbar-toggler, .navbar-dark .btn-group-lg > .navbar-toggler {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > .post-navigation-button, .navbar-light .btn-group-lg > .navbar-toggler, .navbar-dark .btn-group-lg > .navbar-toggler, .navbar .btn-group-lg > .navbar-toggler {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
-.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .post-navigation-button, .navbar-light .btn-group-sm > .navbar-toggler, .navbar-dark .btn-group-sm > .navbar-toggler {
+.btn-sm, .btn-group-sm > .btn, .btn-group-sm > .post-navigation-button, .navbar-light .btn-group-sm > .navbar-toggler, .navbar-dark .btn-group-sm > .navbar-toggler, .navbar .btn-group-sm > .navbar-toggler {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0.2rem;
@@ -3683,59 +3686,71 @@ textarea.form-control-lg {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .btn-group > .post-navigation-button, .navbar-light .btn-group > .navbar-toggler, .navbar-dark .btn-group > .navbar-toggler,
+.btn-group > .btn, .btn-group > .post-navigation-button, .navbar-light .btn-group > .navbar-toggler, .navbar-dark .btn-group > .navbar-toggler, .navbar .btn-group > .navbar-toggler,
 .btn-group-vertical > .btn,
 .btn-group-vertical > .post-navigation-button,
 .navbar-light .btn-group-vertical > .navbar-toggler,
-.navbar-dark .btn-group-vertical > .navbar-toggler {
+.navbar-dark .btn-group-vertical > .navbar-toggler,
+.navbar .btn-group-vertical > .navbar-toggler {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .post-navigation-button, .navbar-light .btn-group > .btn-check:checked + .navbar-toggler, .navbar-dark .btn-group > .btn-check:checked + .navbar-toggler,
+.btn-group > .btn-check:checked + .btn, .btn-group > .btn-check:checked + .post-navigation-button, .navbar-light .btn-group > .btn-check:checked + .navbar-toggler, .navbar-dark .btn-group > .btn-check:checked + .navbar-toggler, .navbar .btn-group > .btn-check:checked + .navbar-toggler,
 .btn-group > .btn-check:focus + .btn,
 .btn-group > .btn-check:focus + .post-navigation-button,
 .navbar-light .btn-group > .btn-check:focus + .navbar-toggler,
 .navbar-dark .btn-group > .btn-check:focus + .navbar-toggler,
+.navbar .btn-group > .btn-check:focus + .navbar-toggler,
 .btn-group > .btn:hover,
 .btn-group > .post-navigation-button:hover,
 .navbar-light .btn-group > .navbar-toggler:hover,
 .navbar-dark .btn-group > .navbar-toggler:hover,
+.navbar .btn-group > .navbar-toggler:hover,
 .btn-group > .btn:focus,
 .btn-group > .post-navigation-button:focus,
 .navbar-light .btn-group > .navbar-toggler:focus,
 .navbar-dark .btn-group > .navbar-toggler:focus,
+.navbar .btn-group > .navbar-toggler:focus,
 .btn-group > .btn:active,
 .btn-group > .post-navigation-button:active,
 .navbar-light .btn-group > .navbar-toggler:active,
 .navbar-dark .btn-group > .navbar-toggler:active,
+.navbar .btn-group > .navbar-toggler:active,
 .btn-group > .btn.active,
 .btn-group > .active.post-navigation-button,
 .navbar-light .btn-group > .active.navbar-toggler,
 .navbar-dark .btn-group > .active.navbar-toggler,
+.navbar .btn-group > .active.navbar-toggler,
 .btn-group-vertical > .btn-check:checked + .btn,
 .btn-group-vertical > .btn-check:checked + .post-navigation-button,
 .navbar-light .btn-group-vertical > .btn-check:checked + .navbar-toggler,
 .navbar-dark .btn-group-vertical > .btn-check:checked + .navbar-toggler,
+.navbar .btn-group-vertical > .btn-check:checked + .navbar-toggler,
 .btn-group-vertical > .btn-check:focus + .btn,
 .btn-group-vertical > .btn-check:focus + .post-navigation-button,
 .navbar-light .btn-group-vertical > .btn-check:focus + .navbar-toggler,
 .navbar-dark .btn-group-vertical > .btn-check:focus + .navbar-toggler,
+.navbar .btn-group-vertical > .btn-check:focus + .navbar-toggler,
 .btn-group-vertical > .btn:hover,
 .btn-group-vertical > .post-navigation-button:hover,
 .navbar-light .btn-group-vertical > .navbar-toggler:hover,
 .navbar-dark .btn-group-vertical > .navbar-toggler:hover,
+.navbar .btn-group-vertical > .navbar-toggler:hover,
 .btn-group-vertical > .btn:focus,
 .btn-group-vertical > .post-navigation-button:focus,
 .navbar-light .btn-group-vertical > .navbar-toggler:focus,
 .navbar-dark .btn-group-vertical > .navbar-toggler:focus,
+.navbar .btn-group-vertical > .navbar-toggler:focus,
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .post-navigation-button:active,
 .navbar-light .btn-group-vertical > .navbar-toggler:active,
 .navbar-dark .btn-group-vertical > .navbar-toggler:active,
+.navbar .btn-group-vertical > .navbar-toggler:active,
 .btn-group-vertical > .btn.active,
 .btn-group-vertical > .active.post-navigation-button,
 .navbar-light .btn-group-vertical > .active.navbar-toggler,
-.navbar-dark .btn-group-vertical > .active.navbar-toggler {
+.navbar-dark .btn-group-vertical > .active.navbar-toggler,
+.navbar .btn-group-vertical > .active.navbar-toggler {
   z-index: 1;
 }
 
@@ -3748,27 +3763,30 @@ textarea.form-control-lg {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .btn-group > .post-navigation-button:not(:first-child), .navbar-light .btn-group > .navbar-toggler:not(:first-child), .navbar-dark .btn-group > .navbar-toggler:not(:first-child),
+.btn-group > .btn:not(:first-child), .btn-group > .post-navigation-button:not(:first-child), .navbar-light .btn-group > .navbar-toggler:not(:first-child), .navbar-dark .btn-group > .navbar-toggler:not(:first-child), .navbar .btn-group > .navbar-toggler:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .post-navigation-button:not(:last-child):not(.dropdown-toggle), .navbar-light .btn-group > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar-dark .btn-group > .navbar-toggler:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .post-navigation-button:not(:last-child):not(.dropdown-toggle), .navbar-light .btn-group > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar-dark .btn-group > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar .btn-group > .navbar-toggler:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
 .btn-group > .btn-group:not(:last-child) > .post-navigation-button,
 .navbar-light .btn-group > .btn-group:not(:last-child) > .navbar-toggler,
-.navbar-dark .btn-group > .btn-group:not(:last-child) > .navbar-toggler {
+.navbar-dark .btn-group > .btn-group:not(:last-child) > .navbar-toggler,
+.navbar .btn-group > .btn-group:not(:last-child) > .navbar-toggler {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:nth-child(n+3), .btn-group > .post-navigation-button:nth-child(n+3), .navbar-light .btn-group > .navbar-toggler:nth-child(n+3), .navbar-dark .btn-group > .navbar-toggler:nth-child(n+3),
+.btn-group > .btn:nth-child(n+3), .btn-group > .post-navigation-button:nth-child(n+3), .navbar-light .btn-group > .navbar-toggler:nth-child(n+3), .navbar-dark .btn-group > .navbar-toggler:nth-child(n+3), .navbar .btn-group > .navbar-toggler:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn,
 .btn-group > :not(.btn-check) + .post-navigation-button,
 .navbar-light .btn-group > :not(.btn-check) + .navbar-toggler,
 .navbar-dark .btn-group > :not(.btn-check) + .navbar-toggler,
+.navbar .btn-group > :not(.btn-check) + .navbar-toggler,
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn-group:not(:first-child) > .post-navigation-button,
 .navbar-light .btn-group > .btn-group:not(:first-child) > .navbar-toggler,
-.navbar-dark .btn-group > .btn-group:not(:first-child) > .navbar-toggler {
+.navbar-dark .btn-group > .btn-group:not(:first-child) > .navbar-toggler,
+.navbar .btn-group > .btn-group:not(:first-child) > .navbar-toggler {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -3784,12 +3802,12 @@ textarea.form-control-lg {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .post-navigation-button + .dropdown-toggle-split, .navbar-light .btn-group-sm > .navbar-toggler + .dropdown-toggle-split, .navbar-dark .btn-group-sm > .navbar-toggler + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > .post-navigation-button + .dropdown-toggle-split, .navbar-light .btn-group-sm > .navbar-toggler + .dropdown-toggle-split, .navbar-dark .btn-group-sm > .navbar-toggler + .dropdown-toggle-split, .navbar .btn-group-sm > .navbar-toggler + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .post-navigation-button + .dropdown-toggle-split, .navbar-light .btn-group-lg > .navbar-toggler + .dropdown-toggle-split, .navbar-dark .btn-group-lg > .navbar-toggler + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > .post-navigation-button + .dropdown-toggle-split, .navbar-light .btn-group-lg > .navbar-toggler + .dropdown-toggle-split, .navbar-dark .btn-group-lg > .navbar-toggler + .dropdown-toggle-split, .navbar .btn-group-lg > .navbar-toggler + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -3799,27 +3817,29 @@ textarea.form-control-lg {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .btn-group-vertical > .post-navigation-button, .navbar-light .btn-group-vertical > .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler,
+.btn-group-vertical > .btn, .btn-group-vertical > .post-navigation-button, .navbar-light .btn-group-vertical > .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler, .navbar .btn-group-vertical > .navbar-toggler,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .post-navigation-button:not(:first-child), .navbar-light .btn-group-vertical > .navbar-toggler:not(:first-child), .navbar-dark .btn-group-vertical > .navbar-toggler:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .post-navigation-button:not(:first-child), .navbar-light .btn-group-vertical > .navbar-toggler:not(:first-child), .navbar-dark .btn-group-vertical > .navbar-toggler:not(:first-child), .navbar .btn-group-vertical > .navbar-toggler:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px;
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .post-navigation-button:not(:last-child):not(.dropdown-toggle), .navbar-light .btn-group-vertical > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar-dark .btn-group-vertical > .navbar-toggler:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .post-navigation-button:not(:last-child):not(.dropdown-toggle), .navbar-light .btn-group-vertical > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar-dark .btn-group-vertical > .navbar-toggler:not(:last-child):not(.dropdown-toggle), .navbar .btn-group-vertical > .navbar-toggler:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
 .btn-group-vertical > .btn-group:not(:last-child) > .post-navigation-button,
 .navbar-light .btn-group-vertical > .btn-group:not(:last-child) > .navbar-toggler,
-.navbar-dark .btn-group-vertical > .btn-group:not(:last-child) > .navbar-toggler {
+.navbar-dark .btn-group-vertical > .btn-group:not(:last-child) > .navbar-toggler,
+.navbar .btn-group-vertical > .btn-group:not(:last-child) > .navbar-toggler {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .post-navigation-button ~ .btn, .btn-group-vertical > .btn ~ .post-navigation-button, .btn-group-vertical > .post-navigation-button ~ .post-navigation-button, .navbar-light .btn-group-vertical > .navbar-toggler ~ .btn, .navbar-light .btn-group-vertical > .navbar-toggler ~ .post-navigation-button, .navbar-light .btn-group-vertical > .btn ~ .navbar-toggler, .navbar-light .btn-group-vertical > .post-navigation-button ~ .navbar-toggler, .navbar-light .btn-group-vertical > .navbar-toggler ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .btn, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .post-navigation-button, .navbar-dark .btn-group-vertical > .btn ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .post-navigation-button ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .navbar-toggler,
+.btn-group-vertical > .btn ~ .btn, .btn-group-vertical > .post-navigation-button ~ .btn, .btn-group-vertical > .btn ~ .post-navigation-button, .btn-group-vertical > .post-navigation-button ~ .post-navigation-button, .navbar-light .btn-group-vertical > .navbar-toggler ~ .btn, .navbar-light .btn-group-vertical > .navbar-toggler ~ .post-navigation-button, .navbar-light .btn-group-vertical > .btn ~ .navbar-toggler, .navbar-light .btn-group-vertical > .post-navigation-button ~ .navbar-toggler, .navbar-light .btn-group-vertical > .navbar-toggler ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .btn, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .post-navigation-button, .navbar .btn-group-vertical > .navbar-toggler ~ .btn, .navbar .btn-group-vertical > .navbar-toggler ~ .post-navigation-button, .navbar-dark .btn-group-vertical > .btn ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .post-navigation-button ~ .navbar-toggler, .navbar-dark .btn-group-vertical > .navbar-toggler ~ .navbar-toggler, .navbar .btn-group-vertical > .btn ~ .navbar-toggler, .navbar .btn-group-vertical > .post-navigation-button ~ .navbar-toggler, .navbar .btn-group-vertical > .navbar-toggler ~ .navbar-toggler,
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
 .btn-group-vertical > .btn-group:not(:first-child) > .post-navigation-button,
 .navbar-light .btn-group-vertical > .btn-group:not(:first-child) > .navbar-toggler,
-.navbar-dark .btn-group-vertical > .btn-group:not(:first-child) > .navbar-toggler {
+.navbar-dark .btn-group-vertical > .btn-group:not(:first-child) > .navbar-toggler,
+.navbar .btn-group-vertical > .btn-group:not(:first-child) > .navbar-toggler {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -4199,36 +4219,37 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand, .navbar .navbar-brand {
   color: #fff;
 }
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+.navbar-dark .navbar-brand:hover, .navbar .navbar-brand:hover, .navbar-dark .navbar-brand:focus, .navbar .navbar-brand:focus {
   color: #fff;
 }
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link, .navbar .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.55);
 }
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+.navbar-dark .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
-.navbar-dark .navbar-nav .nav-link.disabled {
+.navbar-dark .navbar-nav .nav-link.disabled, .navbar .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .show > .nav-link, .navbar .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.active {
   color: #fff;
 }
-.navbar-dark .navbar-toggler {
+.navbar-dark .navbar-toggler, .navbar .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
   border-color: rgba(255, 255, 255, 0.1);
 }
-.navbar-dark .navbar-toggler-icon {
+.navbar-dark .navbar-toggler-icon, .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.navbar-dark .navbar-text {
+.navbar-dark .navbar-text, .navbar .navbar-text {
   color: rgba(255, 255, 255, 0.55);
 }
-.navbar-dark .navbar-text a,
+.navbar-dark .navbar-text a, .navbar .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
   color: #fff;
@@ -4628,7 +4649,7 @@ textarea.form-control-lg {
   display: none;
 }
 
-.btn .badge, .post-navigation-button .badge, .navbar-light .navbar-toggler .badge, .navbar-dark .navbar-toggler .badge {
+.btn .badge, .post-navigation-button .badge, .navbar-light .navbar-toggler .badge, .navbar-dark .navbar-toggler .badge, .navbar .navbar-toggler .badge {
   position: relative;
   top: -1px;
 }
@@ -6785,7 +6806,7 @@ textarea.form-control-lg {
   margin: 0 !important;
 }
 
-.m-1 {
+.m-1, #clients .btn, #clients .navbar-dark .navbar-toggler, .navbar-dark #clients .navbar-toggler, #clients .navbar .navbar-toggler, .navbar #clients .navbar-toggler, #clients .navbar-light .navbar-toggler, .navbar-light #clients .navbar-toggler, #clients .post-navigation-button {
   margin: 0.25rem !important;
 }
 
@@ -7318,11 +7339,11 @@ textarea.form-control-lg {
   color: #f2460d !important;
 }
 
-.text-light {
+.text-light, .navbar .nav-search .blog-search-input, .navbar .nav-search span.inline-text, .navbar hr {
   color: #eef0f2 !important;
 }
 
-.text-dark {
+.text-dark, .nav-search-below {
   color: #000633 !important;
 }
 
@@ -7350,7 +7371,7 @@ textarea.form-control-lg {
   color: inherit !important;
 }
 
-.bg-primary {
+.bg-primary, .navbar .nav-search .blog-search-input {
   background-color: #2F414A !important;
 }
 
@@ -7374,11 +7395,11 @@ textarea.form-control-lg {
   background-color: #f2460d !important;
 }
 
-.bg-light {
+.bg-light, .nav-search-below {
   background-color: #eef0f2 !important;
 }
 
-.bg-dark {
+.bg-dark, .navbar {
   background-color: #000633 !important;
 }
 
@@ -11052,6 +11073,12 @@ Sample:
 }
 
 /*
+Navbar
+*/
+.navbar .navbar-brand img {
+  max-height: 2em;
+}
+/*
 Fix navbar-toggler size (padding)!
 */
 /*
@@ -11194,7 +11221,7 @@ Profile
 */
 .profile .avatar > a {
   display: block;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   border-radius: 50%;
   border: 4px solid #2F414A;
