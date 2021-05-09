@@ -52,9 +52,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
 
         <script src="/assets/js/simple-dom-filter.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.3.0/shuffle.min.js" integrity="sha512-Z2o9xls9hRQjtzU0G8qTxaj9cyVgqw/b2ocZ3X9LbF/OiXnbyR7E/d5+Yl8mSeulNW77w9vXq5hhUHarzacKKw==" crossorigin="anonymous"></script>
+        
+        <!-- https://packagist.org/packages/patrickkunka/mixitup 2.0.5 - last free version -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.0.5/jquery.mixitup.min.js" integrity="sha512-NlMlh/p9Kag9mg+RDVYj1f8VHwcrWn3+ICeUnwL3XcBpdGr1dsYq15SZ+YWEsmg8Qxs3sWv2tcolAbYeT+uv4g==" crossorigin="anonymous"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" crossorigin="anonymous"></script>
+        
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.min.js" integrity="sha512-eFH1e5TOppR2v/FrKk5FT/W9IHX25gKlrlTjIAuuG3pdDTMi3s8nR5PftWQ31fMpaF7P6NmlQXJjBwORWMLRLQ==" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.min.css" integrity="sha512-06CZo7raVnbbD3BlY8/hGUoUCuhk8sTdVGV3m3nuh9i2R+UmkLbLRTE/My8TuJ3ALbDulhBObJQWtOUt0mXzNQ==" crossorigin="anonymous" />
@@ -245,18 +248,19 @@
     <div class="row pt-0 pb-5">
         <div class="col">
             <div class="controls text-center">
-                <a class="btn client-filter-button" data-filter="">All</a>
-                <a class="btn client-filter-button" data-filter="USA">USA</a>
-                <a class="btn client-filter-button" data-filter="EU-DACH">EUROPE: German (DACH) region</a>
-                <a class="btn client-filter-button" data-filter="SK">EUROPE: Slovakia</a>
-                <a class="btn client-filter-button" data-filter="GOV">Government</a>
+                <a class="filter-clients btn btn-secondary" data-filter="all">All</a>
+                <a class="filter-clients btn btn-secondary" data-filter=".USA">USA</a>
+                <a class="filter-clients btn btn-secondary" data-filter=".EU-DACH">EUROPE: German (DACH)
+                    region</a>
+                <a class="filter-clients btn btn-secondary" data-filter=".SK">EUROPE: Slovakia</a>
+                <a class="filter-clients btn btn-secondary" data-filter=".GOV">Government</a>
             </div>
         </div>
     </div>
 
-    <div class="row align-items-stretch g-3 client-filter-item-container">
+    <div class="row align-items-stretch g-3 clients-container">
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="USA">
+        <div class="col-sm-6 col-lg-4 client-item-mix USA" data-category="USA">
             <div class="card">
                 <img src=" /assets/img/_clients/sp.jpg" alt="" />
                 <a class="stretched-link" href="https://www.simplyput.com/" target="_blank"></a>
@@ -270,7 +274,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="USA">
+        <div class="col-sm-6 col-lg-4 client-item-mix USA" data-category="USA">
             <div class="card">
                 <img src=" /assets/img/_clients/ups.png" alt="" />
                 <a class="stretched-link" href="http://universalplant.com" target="_blank"></a>
@@ -284,7 +288,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="USA">
+        <div class="col-sm-6 col-lg-4 client-item-mix USA" data-category="USA">
             <div class="card">
                 <img src=" /assets/img/_clients/pdi.png" alt="" />
                 <a class="stretched-link" href="https://www.pdisoftware.com/" target="_blank"></a>
@@ -299,7 +303,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="USA">
+        <div class="col-sm-6 col-lg-4 client-item-mix USA" data-category="USA">
             <div class="card">
                 <img src=" /assets/img/_clients/ceremity.png" alt="" />
                 <a class="stretched-link" href="http://www.ceremity.com" target="_blank"></a>
@@ -313,7 +317,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, EU-DACH">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU EU-DACH" data-category="EU, EU-DACH">
             <div class="card">
                 <img src=" /assets/img/_clients/h&amp;s.png" alt="" />
                 <a class="stretched-link" href="http://hs-soft.com" target="_blank"></a>
@@ -327,7 +331,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK" data-category="EU, SK">
             <div class="card">
                 <img src=" /assets/img/_clients/tempest.gif" alt="" />
                 <a class="stretched-link" href="http://www.tempest.sk" target="_blank"></a>
@@ -341,7 +345,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK" data-category="EU, SK">
             <div class="card">
                 <img src=" /assets/img/_clients/datalan.gif" alt="" />
                 <a class="stretched-link" href="http://www.datalan.sk" target="_blank"></a>
@@ -355,7 +359,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK" data-category="EU, SK">
             <div class="card">
                 <img src=" /assets/img/_clients/microstep-mis.png" alt="" />
                 <a class="stretched-link" href="http://www.microstep-mis.com" target="_blank"></a>
@@ -370,7 +374,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK" data-category="EU, SK">
             <div class="card">
                 <img src=" /assets/img/_clients/vw.png" alt="" />
                 <a class="stretched-link" href="http://sk.volkswagen.sk" target="_blank"></a>
@@ -385,7 +389,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK" data-category="EU, SK">
             <div class="card">
                 <img src=" /assets/img/_clients/slsp.png" alt="" />
                 <a class="stretched-link" href="http://www.slsp.sk" target="_blank"></a>
@@ -399,7 +403,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK, GOV">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK GOV" data-category="EU, SK, GOV">
             <div class="card">
                 <img src=" /assets/img/_clients/pusr.png" alt="" />
                 <a class="stretched-link" href="http://www.pamiatky.sk" target="_blank"></a>
@@ -411,7 +415,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6 col-lg-4 client-filter-item" data-category="EU, SK, GOV">
+        <div class="col-sm-6 col-lg-4 client-item-mix EU SK GOV" data-category="EU, SK, GOV">
             <div class="card">
                 <img src=" /assets/img/_clients/generalna prokuratura SR.png" alt="" />
                 <a class="stretched-link" href="https://www.genpro.gov.sk" target="_blank"></a>
@@ -423,11 +427,18 @@
             </div>
         </div>
 
+
+
     </div>
 
     <script>
-        debugger
-        const filterizr = new Filterizr('.client-filter-item-container', { gridItemsSelector: '.client-filter-item' });
+        $('.clients-container').mixItUp({
+            selectors: {
+                target: '.client-item-mix',
+                filter: '.filter-clients',
+                sort: '.sort-clients'
+            }
+        });
     </script>
 
 </section>
